@@ -58,7 +58,7 @@ text## 🛠 Tech Stack
 - At least 4GB RAM recommended
 
 ### 1. Clone the repository
-```bash
+bash
 git clone https://github.com/evgeneverit/de_earthquake.git
 cd de_earthquake
 ### 2. Create .env file
@@ -69,31 +69,6 @@ _PIP_ADDITIONAL_REQUIREMENTS=duckdb
 ### 3. Start services
 Bashdocker compose up -d
 ### 4. Access services
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ServiceURLCredentialsAirflowhttp://localhost:8080airflow / airflowMetabasehttp://localhost:3000-MinIO Consolehttp://localhost:9001minioadmin / minioadmin
 📂 Project Structure
 textde_earthquake/
@@ -107,36 +82,6 @@ textde_earthquake/
 ├── docker-compose.yaml
 └── README.md
 📊 DAGs Description
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 DAGScheduleDescriptionraw_from_api_to_s3Daily 05:00Downloads earthquake data from USGS and saves as Parquet to MinIOraw_from_s3_to_pgDailyLoads raw data from MinIO into PostgreSQL ODS layerfct_count_day_earthquakeDailyCalculates daily earthquake countfct_avg_day_earthquakeDailyCalculates daily average magnitude
 📈 Results
 After successful runs you can explore:
