@@ -15,34 +15,8 @@ The pipeline implements a classic medallion architecture:
 | **Analytical** | Daily aggregations (count & average magnitude) | PostgreSQL |
 
 ## 🏗 Architecture
-USGS API
-│
-▼
-┌─────────────────────┐
-│  raw_from_api_to_s3 │  ← Airflow DAG
-└─────────┬───────────┘
-│
-▼
-MinIO (S3)
-│
-▼
-┌─────────────────────┐
-│  raw_from_s3_to_pg  │  ← Airflow DAG
-└─────────┬───────────┘
-│
-▼
-PostgreSQL (ODS)
-│
-├──────────────────────┐
-▼                      ▼
-┌──────────────────┐   ┌──────────────────────┐
-│ fct_count_day... │   │ fct_avg_day_earthquake│
-└──────────────────┘   └──────────────────────┘
-│                      │
-└──────────┬───────────┘
-▼
-Metabase
-text## 🛠 Tech Stack
+USGS API -> raw_from_api_to_s3 (Airflow DAG) -> MinIO (S3) -> raw_from_s3_to_pg (Airflow DAG) -> PostgreSQL (ODS) -> Metabase
+
 
 - **Orchestration**: Apache Airflow 2.10 (CeleryExecutor)
 - **Object Storage**: MinIO (S3-compatible)
@@ -51,45 +25,6 @@ text## 🛠 Tech Stack
 - **Visualization**: Metabase
 - **Infrastructure**: Docker Compose
 
-## 🚀 How to Run
-
-### Prerequisites
-- Docker & Docker Compose
-- At least 4GB RAM recommended
-
-### 1. Clone the repository
-bash
-git clone https://github.com/evgeneverit/de_earthquake.git
-cd de_earthquake
-### 2. Create .env file
-envAIRFLOW_UID=50000
-AIRFLOW_PROJ_DIR=.
-AIRFLOW_IMAGE_NAME=apache/airflow:2.10.5
-_PIP_ADDITIONAL_REQUIREMENTS=duckdb
-### 3. Start services
-Bashdocker compose up -d
-
-
-📂 Project Structure
-textde_earthquake/
-├── dags/
-│   ├── row_from_api_to_s3.py      # USGS API → MinIO
-│   ├── raw_from_s3_to_pg.py       # MinIO → PostgreSQL
-│   ├── fct_count_day_eqrthquake.py
-│   └── fct_avg_day_earthquake.py
-├── metabase/
-│   └── Dockerfile
-├── docker-compose.yaml
-└── README.md
-📊 DAGs Description
-DAGScheduleDescriptionraw_from_api_to_s3Daily 05:00Downloads earthquake data from USGS and saves as Parquet to MinIOraw_from_s3_to_pgDailyLoads raw data from MinIO into PostgreSQL ODS layerfct_count_day_earthquakeDailyCalculates daily earthquake countfct_avg_day_earthquakeDailyCalculates daily average magnitude
-📈 Results
-After successful runs you can explore:
-
-Raw Parquet files in MinIO (prod/raw/earthquake/)
-Cleaned data in PostgreSQL
-Analytical tables with daily metrics
-Dashboards in Metabase
 
 👤 Author
 Evgeny
