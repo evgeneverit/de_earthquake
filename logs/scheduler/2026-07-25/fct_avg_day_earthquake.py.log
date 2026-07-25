@@ -2725,3 +2725,87 @@ ValueError: year 22026 is out of range
 [2026-07-25T17:21:37.510+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:21:37.510+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-07-25T17:21:37.523+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:21:37.523+0000] {dag.py:4180} INFO - Setting next_dagrun for fct_avg_day_earthquake to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
 [2026-07-25T17:21:37.535+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fct_avg_day_earthquake.py took 0.054 seconds
+[2026-07-25T17:22:07.795+0000] {processor.py:186} INFO - Started process (PID=40531) to work on /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:22:07.796+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fct_avg_day_earthquake.py for tasks to queue
+[2026-07-25T17:22:07.797+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:22:07.797+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:22:07.804+0000] {processor.py:925} INFO - DAG(s) 'fct_avg_day_earthquake' retrieved from /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:22:07.818+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:22:07.818+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T17:22:07.831+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:22:07.831+0000] {dag.py:4180} INFO - Setting next_dagrun for fct_avg_day_earthquake to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
+[2026-07-25T17:22:07.843+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fct_avg_day_earthquake.py took 0.053 seconds
+[2026-07-25T17:22:38.255+0000] {processor.py:186} INFO - Started process (PID=40571) to work on /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:22:38.258+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fct_avg_day_earthquake.py for tasks to queue
+[2026-07-25T17:22:38.259+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:22:38.259+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:22:38.266+0000] {processor.py:925} INFO - DAG(s) 'fct_avg_day_earthquake' retrieved from /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:22:38.279+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:22:38.279+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T17:22:38.373+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:22:38.373+0000] {dag.py:4180} INFO - Setting next_dagrun for fct_avg_day_earthquake to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
+[2026-07-25T17:22:38.387+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fct_avg_day_earthquake.py took 0.139 seconds
+[2026-07-25T17:23:08.743+0000] {processor.py:186} INFO - Started process (PID=40611) to work on /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:23:08.744+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fct_avg_day_earthquake.py for tasks to queue
+[2026-07-25T17:23:08.744+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:23:08.744+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:23:08.750+0000] {processor.py:925} INFO - DAG(s) 'fct_avg_day_earthquake' retrieved from /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:23:08.763+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:23:08.763+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T17:23:08.777+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:23:08.777+0000] {dag.py:4180} INFO - Setting next_dagrun for fct_avg_day_earthquake to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
+[2026-07-25T17:23:08.788+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fct_avg_day_earthquake.py took 0.050 seconds
+[2026-07-25T17:23:39.186+0000] {processor.py:186} INFO - Started process (PID=40651) to work on /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:23:39.189+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fct_avg_day_earthquake.py for tasks to queue
+[2026-07-25T17:23:39.190+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:23:39.190+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:23:39.198+0000] {processor.py:925} INFO - DAG(s) 'fct_avg_day_earthquake' retrieved from /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:23:39.210+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:23:39.210+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T17:23:39.224+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:23:39.224+0000] {dag.py:4180} INFO - Setting next_dagrun for fct_avg_day_earthquake to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
+[2026-07-25T17:23:39.235+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fct_avg_day_earthquake.py took 0.055 seconds
+[2026-07-25T17:24:09.535+0000] {processor.py:186} INFO - Started process (PID=40691) to work on /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:24:09.536+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fct_avg_day_earthquake.py for tasks to queue
+[2026-07-25T17:24:09.536+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:24:09.536+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:24:09.542+0000] {processor.py:925} INFO - DAG(s) 'fct_avg_day_earthquake' retrieved from /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:24:09.556+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:24:09.556+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T17:24:09.569+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:24:09.569+0000] {dag.py:4180} INFO - Setting next_dagrun for fct_avg_day_earthquake to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
+[2026-07-25T17:24:09.580+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fct_avg_day_earthquake.py took 0.048 seconds
+[2026-07-25T17:24:40.108+0000] {processor.py:186} INFO - Started process (PID=40731) to work on /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:24:40.110+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fct_avg_day_earthquake.py for tasks to queue
+[2026-07-25T17:24:40.111+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:24:40.110+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:24:40.117+0000] {processor.py:925} INFO - DAG(s) 'fct_avg_day_earthquake' retrieved from /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:24:40.131+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:24:40.131+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T17:24:40.224+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:24:40.224+0000] {dag.py:4180} INFO - Setting next_dagrun for fct_avg_day_earthquake to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
+[2026-07-25T17:24:40.235+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fct_avg_day_earthquake.py took 0.131 seconds
+[2026-07-25T17:25:10.572+0000] {processor.py:186} INFO - Started process (PID=40771) to work on /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:25:10.573+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fct_avg_day_earthquake.py for tasks to queue
+[2026-07-25T17:25:10.574+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:25:10.574+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:25:10.580+0000] {processor.py:925} INFO - DAG(s) 'fct_avg_day_earthquake' retrieved from /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:25:10.595+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:25:10.594+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T17:25:10.613+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:25:10.613+0000] {dag.py:4180} INFO - Setting next_dagrun for fct_avg_day_earthquake to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
+[2026-07-25T17:25:10.625+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fct_avg_day_earthquake.py took 0.057 seconds
+[2026-07-25T17:25:40.946+0000] {processor.py:186} INFO - Started process (PID=40811) to work on /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:25:40.949+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fct_avg_day_earthquake.py for tasks to queue
+[2026-07-25T17:25:40.949+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:25:40.949+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:25:40.955+0000] {processor.py:925} INFO - DAG(s) 'fct_avg_day_earthquake' retrieved from /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:25:40.967+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:25:40.967+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T17:25:40.981+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:25:40.981+0000] {dag.py:4180} INFO - Setting next_dagrun for fct_avg_day_earthquake to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
+[2026-07-25T17:25:40.991+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fct_avg_day_earthquake.py took 0.050 seconds
+[2026-07-25T17:26:11.378+0000] {processor.py:186} INFO - Started process (PID=40851) to work on /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:26:11.379+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fct_avg_day_earthquake.py for tasks to queue
+[2026-07-25T17:26:11.379+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:26:11.379+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:26:11.386+0000] {processor.py:925} INFO - DAG(s) 'fct_avg_day_earthquake' retrieved from /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:26:11.399+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:26:11.399+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T17:26:11.412+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:26:11.412+0000] {dag.py:4180} INFO - Setting next_dagrun for fct_avg_day_earthquake to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
+[2026-07-25T17:26:11.422+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fct_avg_day_earthquake.py took 0.047 seconds
+[2026-07-25T17:26:41.937+0000] {processor.py:186} INFO - Started process (PID=40891) to work on /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:26:41.940+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fct_avg_day_earthquake.py for tasks to queue
+[2026-07-25T17:26:41.940+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:26:41.940+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:26:41.947+0000] {processor.py:925} INFO - DAG(s) 'fct_avg_day_earthquake' retrieved from /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:26:41.960+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:26:41.959+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T17:26:42.056+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:26:42.056+0000] {dag.py:4180} INFO - Setting next_dagrun for fct_avg_day_earthquake to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
+[2026-07-25T17:26:42.067+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fct_avg_day_earthquake.py took 0.134 seconds
+[2026-07-25T17:27:12.335+0000] {processor.py:186} INFO - Started process (PID=40930) to work on /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:27:12.335+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fct_avg_day_earthquake.py for tasks to queue
+[2026-07-25T17:27:12.336+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:27:12.335+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:27:12.342+0000] {processor.py:925} INFO - DAG(s) 'fct_avg_day_earthquake' retrieved from /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:27:12.355+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:27:12.355+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T17:27:12.369+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:27:12.369+0000] {dag.py:4180} INFO - Setting next_dagrun for fct_avg_day_earthquake to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
+[2026-07-25T17:27:12.379+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fct_avg_day_earthquake.py took 0.048 seconds
+[2026-07-25T17:27:42.736+0000] {processor.py:186} INFO - Started process (PID=40970) to work on /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:27:42.739+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/fct_avg_day_earthquake.py for tasks to queue
+[2026-07-25T17:27:42.740+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:27:42.740+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:27:42.748+0000] {processor.py:925} INFO - DAG(s) 'fct_avg_day_earthquake' retrieved from /opt/airflow/dags/fct_avg_day_earthquake.py
+[2026-07-25T17:27:42.762+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:27:42.762+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T17:27:42.778+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:27:42.778+0000] {dag.py:4180} INFO - Setting next_dagrun for fct_avg_day_earthquake to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
+[2026-07-25T17:27:42.791+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/fct_avg_day_earthquake.py took 0.061 seconds

@@ -12845,3 +12845,137 @@ File Path                                      PID    Runtime      # DAGs    # E
 /opt/airflow/dags/fct_count_day_eqrthquake.py                           1           0  0.07s           2026-07-25T17:21:15                      12
 /opt/airflow/dags/fct_avg_day_earthquake.py                             1           0  0.06s           2026-07-25T17:21:07                      12
 ================================================================================
+[2026-07-25T17:21:49.647+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/raw_from_s3_to_pg.py                                  1           0  0.09s           2026-07-25T17:21:47                      15
+/opt/airflow/dags/row_from_api_to_s3.py                                 1           0  0.09s           2026-07-25T17:21:47                      14
+/opt/airflow/dags/fct_avg_day_earthquake.py                             1           0  0.07s           2026-07-25T17:21:37                      12
+/opt/airflow/dags/fct_count_day_eqrthquake.py                           1           0  0.06s           2026-07-25T17:21:45                      12
+================================================================================
+[2026-07-25T17:22:19.997+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/raw_from_s3_to_pg.py                                  1           0  0.18s           2026-07-25T17:22:18                      15
+/opt/airflow/dags/row_from_api_to_s3.py                                 1           0  0.17s           2026-07-25T17:22:18                      14
+/opt/airflow/dags/fct_avg_day_earthquake.py                             1           0  0.06s           2026-07-25T17:22:07                      12
+/opt/airflow/dags/fct_count_day_eqrthquake.py                           1           0  0.06s           2026-07-25T17:22:15                      12
+================================================================================
+[2026-07-25T17:22:50.592+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/fct_avg_day_earthquake.py                             1           0  0.15s           2026-07-25T17:22:38                      12
+/opt/airflow/dags/raw_from_s3_to_pg.py                                  1           0  0.09s           2026-07-25T17:22:48                      15
+/opt/airflow/dags/row_from_api_to_s3.py                                 1           0  0.09s           2026-07-25T17:22:48                      14
+/opt/airflow/dags/fct_count_day_eqrthquake.py                           1           0  0.07s           2026-07-25T17:22:46                      12
+================================================================================
+[2026-07-25T17:23:20.988+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/raw_from_s3_to_pg.py                                  1           0  0.09s           2026-07-25T17:23:19                      15
+/opt/airflow/dags/row_from_api_to_s3.py                                 1           0  0.08s           2026-07-25T17:23:19                      14
+/opt/airflow/dags/fct_count_day_eqrthquake.py                           1           0  0.08s           2026-07-25T17:23:16                      12
+/opt/airflow/dags/fct_avg_day_earthquake.py                             1           0  0.06s           2026-07-25T17:23:08                      12
+================================================================================
+[2026-07-25T17:23:51.373+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/raw_from_s3_to_pg.py                                  1           0  0.09s           2026-07-25T17:23:49                      15
+/opt/airflow/dags/row_from_api_to_s3.py                                 1           0  0.09s           2026-07-25T17:23:49                      14
+/opt/airflow/dags/fct_avg_day_earthquake.py                             1           0  0.07s           2026-07-25T17:23:39                      12
+/opt/airflow/dags/fct_count_day_eqrthquake.py                           1           0  0.06s           2026-07-25T17:23:47                      12
+================================================================================
+[2026-07-25T17:24:21.911+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/raw_from_s3_to_pg.py                                  1           0  0.19s           2026-07-25T17:24:19                      15
+/opt/airflow/dags/row_from_api_to_s3.py                                 1           0  0.18s           2026-07-25T17:24:19                      14
+/opt/airflow/dags/fct_count_day_eqrthquake.py                           1           0  0.06s           2026-07-25T17:24:17                      12
+/opt/airflow/dags/fct_avg_day_earthquake.py                             1           0  0.06s           2026-07-25T17:24:09                      12
+================================================================================
+[2026-07-25T17:24:52.370+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/fct_avg_day_earthquake.py                             1           0  0.14s           2026-07-25T17:24:40                      12
+/opt/airflow/dags/raw_from_s3_to_pg.py                                  1           0  0.09s           2026-07-25T17:24:50                      15
+/opt/airflow/dags/fct_count_day_eqrthquake.py                           1           0  0.08s           2026-07-25T17:24:48                      12
+/opt/airflow/dags/row_from_api_to_s3.py                                 1           0  0.08s           2026-07-25T17:24:50                      14
+================================================================================
+[2026-07-25T17:25:05.510+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-07-25T17:25:05.512+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2026-07-25T17:25:22.779+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/raw_from_s3_to_pg.py                                  1           0  0.09s           2026-07-25T17:25:20                      15
+/opt/airflow/dags/row_from_api_to_s3.py                                 1           0  0.09s           2026-07-25T17:25:20                      14
+/opt/airflow/dags/fct_avg_day_earthquake.py                             1           0  0.07s           2026-07-25T17:25:10                      12
+/opt/airflow/dags/fct_count_day_eqrthquake.py                           1           0  0.06s           2026-07-25T17:25:18                      12
+================================================================================
+[2026-07-25T17:25:53.187+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/raw_from_s3_to_pg.py                                  1           0  0.08s           2026-07-25T17:25:51                      15
+/opt/airflow/dags/row_from_api_to_s3.py                                 1           0  0.08s           2026-07-25T17:25:51                      14
+/opt/airflow/dags/fct_avg_day_earthquake.py                             1           0  0.07s           2026-07-25T17:25:40                      12
+/opt/airflow/dags/fct_count_day_eqrthquake.py                           1           0  0.06s           2026-07-25T17:25:49                      12
+================================================================================
+[2026-07-25T17:26:23.726+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/raw_from_s3_to_pg.py                                  1           0  0.18s           2026-07-25T17:26:21                      15
+/opt/airflow/dags/row_from_api_to_s3.py                                 1           0  0.17s           2026-07-25T17:26:21                      14
+/opt/airflow/dags/fct_count_day_eqrthquake.py                           1           0  0.06s           2026-07-25T17:26:19                      12
+/opt/airflow/dags/fct_avg_day_earthquake.py                             1           0  0.06s           2026-07-25T17:26:11                      12
+================================================================================
+[2026-07-25T17:26:54.135+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/fct_avg_day_earthquake.py                             1           0  0.15s           2026-07-25T17:26:42                      12
+/opt/airflow/dags/raw_from_s3_to_pg.py                                  1           0  0.09s           2026-07-25T17:26:52                      15
+/opt/airflow/dags/row_from_api_to_s3.py                                 1           0  0.08s           2026-07-25T17:26:52                      14
+/opt/airflow/dags/fct_count_day_eqrthquake.py                           1           0  0.06s           2026-07-25T17:26:50                      12
+================================================================================
+[2026-07-25T17:27:24.525+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/raw_from_s3_to_pg.py                                  1           0  0.09s           2026-07-25T17:27:22                      15
+/opt/airflow/dags/row_from_api_to_s3.py                                 1           0  0.08s           2026-07-25T17:27:22                      14
+/opt/airflow/dags/fct_count_day_eqrthquake.py                           1           0  0.07s           2026-07-25T17:27:20                      12
+/opt/airflow/dags/fct_avg_day_earthquake.py                             1           0  0.06s           2026-07-25T17:27:12                      12
+================================================================================

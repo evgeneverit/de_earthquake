@@ -1908,3 +1908,94 @@
 [2026-07-25T17:21:17.305+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:21:17.305+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-07-25T17:21:17.319+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:21:17.319+0000] {dag.py:4180} INFO - Setting next_dagrun for raw_from_api_to_s3 to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
 [2026-07-25T17:21:17.330+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/row_from_api_to_s3.py took 0.077 seconds
+[2026-07-25T17:21:47.639+0000] {processor.py:186} INFO - Started process (PID=40494) to work on /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:21:47.640+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/row_from_api_to_s3.py for tasks to queue
+[2026-07-25T17:21:47.640+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:21:47.640+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:21:47.680+0000] {processor.py:925} INFO - DAG(s) 'raw_from_api_to_s3' retrieved from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:21:47.686+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:21:47.686+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T17:21:47.699+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:21:47.699+0000] {dag.py:4180} INFO - Setting next_dagrun for raw_from_api_to_s3 to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
+[2026-07-25T17:21:47.711+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/row_from_api_to_s3.py took 0.075 seconds
+[2026-07-25T17:22:17.976+0000] {processor.py:186} INFO - Started process (PID=40534) to work on /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:22:17.976+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/row_from_api_to_s3.py for tasks to queue
+[2026-07-25T17:22:17.977+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:22:17.977+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:22:18.014+0000] {processor.py:925} INFO - DAG(s) 'raw_from_api_to_s3' retrieved from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:22:18.022+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:22:18.021+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T17:22:18.122+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:22:18.122+0000] {dag.py:4180} INFO - Setting next_dagrun for raw_from_api_to_s3 to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
+[2026-07-25T17:22:18.134+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/row_from_api_to_s3.py took 0.162 seconds
+[2026-07-25T17:22:48.551+0000] {processor.py:186} INFO - Started process (PID=40574) to work on /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:22:48.551+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/row_from_api_to_s3.py for tasks to queue
+[2026-07-25T17:22:48.552+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:22:48.552+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:22:48.590+0000] {processor.py:925} INFO - DAG(s) 'raw_from_api_to_s3' retrieved from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:22:48.597+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:22:48.597+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T17:22:48.610+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:22:48.610+0000] {dag.py:4180} INFO - Setting next_dagrun for raw_from_api_to_s3 to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
+[2026-07-25T17:22:48.620+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/row_from_api_to_s3.py took 0.073 seconds
+[2026-07-25T17:23:18.940+0000] {processor.py:186} INFO - Started process (PID=40614) to work on /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:23:18.940+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/row_from_api_to_s3.py for tasks to queue
+[2026-07-25T17:23:18.941+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:23:18.941+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:23:18.976+0000] {processor.py:925} INFO - DAG(s) 'raw_from_api_to_s3' retrieved from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:23:18.982+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:23:18.982+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T17:23:18.995+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:23:18.995+0000] {dag.py:4180} INFO - Setting next_dagrun for raw_from_api_to_s3 to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
+[2026-07-25T17:23:19.005+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/row_from_api_to_s3.py took 0.068 seconds
+[2026-07-25T17:23:49.352+0000] {processor.py:186} INFO - Started process (PID=40654) to work on /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:23:49.353+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/row_from_api_to_s3.py for tasks to queue
+[2026-07-25T17:23:49.354+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:23:49.353+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:23:49.392+0000] {processor.py:925} INFO - DAG(s) 'raw_from_api_to_s3' retrieved from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:23:49.398+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:23:49.398+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T17:23:49.410+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:23:49.410+0000] {dag.py:4180} INFO - Setting next_dagrun for raw_from_api_to_s3 to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
+[2026-07-25T17:23:49.420+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/row_from_api_to_s3.py took 0.072 seconds
+[2026-07-25T17:24:19.701+0000] {processor.py:186} INFO - Started process (PID=40694) to work on /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:24:19.701+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/row_from_api_to_s3.py for tasks to queue
+[2026-07-25T17:24:19.702+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:24:19.702+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:24:19.748+0000] {processor.py:925} INFO - DAG(s) 'raw_from_api_to_s3' retrieved from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:24:19.757+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:24:19.756+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T17:24:19.860+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:24:19.860+0000] {dag.py:4180} INFO - Setting next_dagrun for raw_from_api_to_s3 to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
+[2026-07-25T17:24:19.870+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/row_from_api_to_s3.py took 0.172 seconds
+[2026-07-25T17:24:50.273+0000] {processor.py:186} INFO - Started process (PID=40734) to work on /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:24:50.274+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/row_from_api_to_s3.py for tasks to queue
+[2026-07-25T17:24:50.275+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:24:50.274+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:24:50.310+0000] {processor.py:925} INFO - DAG(s) 'raw_from_api_to_s3' retrieved from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:24:50.316+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:24:50.316+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T17:24:50.328+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:24:50.328+0000] {dag.py:4180} INFO - Setting next_dagrun for raw_from_api_to_s3 to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
+[2026-07-25T17:24:50.339+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/row_from_api_to_s3.py took 0.070 seconds
+[2026-07-25T17:25:20.738+0000] {processor.py:186} INFO - Started process (PID=40774) to work on /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:25:20.738+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/row_from_api_to_s3.py for tasks to queue
+[2026-07-25T17:25:20.739+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:25:20.739+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:25:20.776+0000] {processor.py:925} INFO - DAG(s) 'raw_from_api_to_s3' retrieved from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:25:20.783+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:25:20.783+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T17:25:20.796+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:25:20.796+0000] {dag.py:4180} INFO - Setting next_dagrun for raw_from_api_to_s3 to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
+[2026-07-25T17:25:20.807+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/row_from_api_to_s3.py took 0.072 seconds
+[2026-07-25T17:25:51.129+0000] {processor.py:186} INFO - Started process (PID=40814) to work on /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:25:51.129+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/row_from_api_to_s3.py for tasks to queue
+[2026-07-25T17:25:51.130+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:25:51.130+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:25:51.166+0000] {processor.py:925} INFO - DAG(s) 'raw_from_api_to_s3' retrieved from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:25:51.172+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:25:51.172+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T17:25:51.184+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:25:51.184+0000] {dag.py:4180} INFO - Setting next_dagrun for raw_from_api_to_s3 to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
+[2026-07-25T17:25:51.195+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/row_from_api_to_s3.py took 0.069 seconds
+[2026-07-25T17:26:21.538+0000] {processor.py:186} INFO - Started process (PID=40854) to work on /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:26:21.538+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/row_from_api_to_s3.py for tasks to queue
+[2026-07-25T17:26:21.539+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:26:21.538+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:26:21.572+0000] {processor.py:925} INFO - DAG(s) 'raw_from_api_to_s3' retrieved from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:26:21.578+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:26:21.577+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T17:26:21.678+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:26:21.678+0000] {dag.py:4180} INFO - Setting next_dagrun for raw_from_api_to_s3 to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
+[2026-07-25T17:26:21.691+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/row_from_api_to_s3.py took 0.156 seconds
+[2026-07-25T17:26:52.080+0000] {processor.py:186} INFO - Started process (PID=40894) to work on /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:26:52.080+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/row_from_api_to_s3.py for tasks to queue
+[2026-07-25T17:26:52.081+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:26:52.081+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:26:52.117+0000] {processor.py:925} INFO - DAG(s) 'raw_from_api_to_s3' retrieved from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:26:52.123+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:26:52.123+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T17:26:52.136+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:26:52.136+0000] {dag.py:4180} INFO - Setting next_dagrun for raw_from_api_to_s3 to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
+[2026-07-25T17:26:52.147+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/row_from_api_to_s3.py took 0.071 seconds
+[2026-07-25T17:27:22.496+0000] {processor.py:186} INFO - Started process (PID=40933) to work on /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:27:22.496+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/row_from_api_to_s3.py for tasks to queue
+[2026-07-25T17:27:22.496+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:27:22.496+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:27:22.533+0000] {processor.py:925} INFO - DAG(s) 'raw_from_api_to_s3' retrieved from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:27:22.539+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:27:22.539+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T17:27:22.551+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:27:22.551+0000] {dag.py:4180} INFO - Setting next_dagrun for raw_from_api_to_s3 to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
+[2026-07-25T17:27:22.561+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/row_from_api_to_s3.py took 0.068 seconds
+[2026-07-25T17:27:52.899+0000] {processor.py:186} INFO - Started process (PID=40973) to work on /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:27:52.900+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/row_from_api_to_s3.py for tasks to queue
+[2026-07-25T17:27:52.900+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:27:52.900+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:27:52.939+0000] {processor.py:925} INFO - DAG(s) 'raw_from_api_to_s3' retrieved from /opt/airflow/dags/row_from_api_to_s3.py
+[2026-07-25T17:27:52.944+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:27:52.944+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-07-25T17:27:52.956+0000] {logging_mixin.py:190} INFO - [2026-07-25T17:27:52.956+0000] {dag.py:4180} INFO - Setting next_dagrun for raw_from_api_to_s3 to 2026-07-25 02:00:00+00:00, run_after=2026-07-26 02:00:00+00:00
+[2026-07-25T17:27:52.967+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/row_from_api_to_s3.py took 0.071 seconds
