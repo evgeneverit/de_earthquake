@@ -68,8 +68,8 @@ AIRFLOW_IMAGE_NAME=apache/airflow:2.10.5
 _PIP_ADDITIONAL_REQUIREMENTS=duckdb
 ### 3. Start services
 Bashdocker compose up -d
-### 4. Access services
-ServiceURLCredentialsAirflowhttp://localhost:8080airflow / airflowMetabasehttp://localhost:3000-MinIO Consolehttp://localhost:9001minioadmin / minioadmin
+
+
 📂 Project Structure
 textde_earthquake/
 ├── dags/
