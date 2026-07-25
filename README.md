@@ -61,14 +61,14 @@ text## 🛠 Tech Stack
 ```bash
 git clone https://github.com/evgeneverit/de_earthquake.git
 cd de_earthquake
-2. Create .env file
+### 2. Create .env file
 envAIRFLOW_UID=50000
 AIRFLOW_PROJ_DIR=.
 AIRFLOW_IMAGE_NAME=apache/airflow:2.10.5
 _PIP_ADDITIONAL_REQUIREMENTS=duckdb
-3. Start services
+### 3. Start services
 Bashdocker compose up -d
-4. Access services
+### 4. Access services
 
 
 
